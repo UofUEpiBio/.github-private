@@ -9,6 +9,7 @@ This private repository stores GitHub Copilot custom agent profiles used across 
 | Agent Name | Purpose |
 |------------|---------|
 | [`r_package_developer`](/agents/r_package_developer.agent.md) | Expert assistant for epidemiology‐focused R package development (code, docs, tests, scientific validation). |
+| [`cpp_statistician`](/agents/cpp_statistician.agent.md) | Expert C++ developer specializing in statistical analysis and modeling implementation. |
 
 
 ## Creating a New Agent
