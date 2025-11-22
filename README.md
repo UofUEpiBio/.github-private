@@ -1,8 +1,8 @@
-# EpiForeSITE Copilot Custom Agents[^original]
+# UofUEpiBio Copilot Custom Agents[^original]
 
-[^original]: This repository is based on the original template found at <https://github.com/docs/custom-agents-template>.
+[^original]: This repository is based on the original template found at <https://github.com/docs/custom-agents-template>. The original version of this repository was forked from the EpiForeSITE organization.
 
-This private repository stores GitHub Copilot custom agent profiles used across the EpiForeSITE organization. Each agent lives as a standalone markdown file inside the `agents/` directory with front matter declaring its `name` and `description`, followed by clear, actionable operating guidelines.
+This private repository stores GitHub Copilot custom agent profiles used across the UofUEpiBio organization. Each agent lives as a standalone markdown file inside the `agents/` directory with front matter declaring its `name` and `description`, followed by clear, actionable operating guidelines.
 
 ## Current Agents
 
@@ -51,10 +51,6 @@ Key directives the `r_package_developer` agent follows:
 - Maintain `NEWS.md`; keep rendered `README` synced (e.g., re-knit `README.Rmd` / `README.qmd`).
 - Ensure packages pass `R CMD check` (or `devtools::check()`).
 - Use public health & epidemiology–relevant examples in docs/vignettes.
-- Add the ForeSITE badge to package READMEs if missing:
-	```
-	[![ForeSITE Group](https://github.com/EpiForeSITE/software/raw/e82ed88f75e0fe5c0a1a3b38c2b94509f122019c/docs/assets/foresite-software-badge.svg)](https://github.com/EpiForeSITE)
-	```
 
 ## Reviewing and Updating Agents
 
